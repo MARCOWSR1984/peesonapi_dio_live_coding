@@ -1,8 +1,10 @@
 package one.digitalinnovation.personapi.mapper;
 
-import one.digitalinnovation.personapi.entity.Person;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
-import org.springframework.web.bind.annotation.Mapping;
+import one.digitalinnovation.personapi.entity.Person;
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+import org.mapstruct.Mapping;
 
 @Mapper
 public interface PersonMapper {
